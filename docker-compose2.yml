@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   app:
-    image: employee_crud:latest
+    image: verevka/employee_crud:latest
     ports:
       - "8080:8080"
     depends_on:

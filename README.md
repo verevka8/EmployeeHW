@@ -1,6 +1,6 @@
-# Employee CRUD 
+# Employee CRUD
 
-Пример проекта на Spring Boot с использованием базы данных MySQL, развернутый с помощью Docker Compose.  
+Пример проекта на Spring Boot с использованием базы данных MySQL, развернутый с помощью Docker Compose.
 
 
 
@@ -14,7 +14,7 @@
    mvn package -DskipTests
 2. **Сборка image**
 
-    Соберите image с помощью docker:
+   Соберите image с помощью docker:
     ```bash
     docker build -t employee_crud .
     ```
@@ -25,3 +25,8 @@
     docker-compose up
     ```
 4. **Откройте <localhost:8080>**
+
+## Запуск сразу готового контейнера:
+   ```bash
+    docker-compose -f docker-compose2.yml up
+   ```
