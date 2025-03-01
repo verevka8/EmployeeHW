@@ -30,3 +30,4 @@
    ```bash
     docker-compose -f docker-compose2.yml up
    ```
+Мой dockerHub: https://hub.docker.com/u/verevka
